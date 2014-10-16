@@ -1,6 +1,6 @@
 /* global Hoodie */
-Hoodie.extend(function(hoodie, lib, utils) {
+Hoodie.extend(function(hoodie) {
   'use strict';
 
-  hoodie.createDb = hoodie.task.start.bind(hoodie, 'createdb');
+  hoodie.createDb = hoodie.task('createdb').start;
 });
