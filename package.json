@@ -13,6 +13,6 @@
       "email": "xmartin@siarp.de"
     }
   ],
-  "dependencies": {
-  }
+  "dependencies": {},
+  "repository": "github:gr2m/hoodie-plugin-createdb"
 }
